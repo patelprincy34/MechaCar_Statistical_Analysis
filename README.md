@@ -18,3 +18,18 @@ Mod. 15
 
 * When we look at Total Summary Dataframe we can see that the variance of the coils is 62.29 PSI, this is well within the required variance of 100 PSI. 
 * When we look at Lot Summary Dataframe Lot 1 and 2 with variances of 0.98 and 7.47 are within the required variance of 100 PSI. Lot 3 however, with a variance of 170.29, has a far higher variation in performance and consistency. Lot 3 is disproportionately responsible for the variance throughout the entire lot.
+
+
+## T-Tests on Suspension Coils
+
+##### T-test results across all manufacturing lots:
+![t test ](https://user-images.githubusercontent.com/93439516/155822673-8e5c385f-360f-4741-95e5-49aad4d44ddf.png)
+* The sample's true mean is 1498.78, as shown in the summary statistics above. There is insufficient evidence to reject the null hypothesis with a p-Value of 0.06, which is larger than the standard significance level of 0.05. That means, the average of all three manufacturing lots is statistically similar to the estimated population mean of 1500.
+##### T-test results for individual lots:
+![t test lots](https://user-images.githubusercontent.com/93439516/155822726-ea57097d-b4df-4e8e-8760-07afb16c7a94.png)
+* For Lot 1 as seen in the summary data above the true sample mean is 1500 and the p-value of 1 which is not low enough for us to reject the null hypothesis.
+* For Lot 2 as seen in the summary data above the true sample mean is 1500.2 similar to lot 1, and the p-value of 0.61 which is not low enough for us to reject the null hypothesis.
+* For Lot 3 as seen in the summary data above the true sample mean is 1496.14  and the p-value of 0.04 which is lower than the standard significance level of 0.05 for us to reject the null hypothesis.
+* Something went wrong during the production cycle of Lot 3. The process must be examined for system failures, and the suspension coils from this lot must be inspected to ensure that those that do not satisfy quality standards are removed.
+
+## Study Design: MechaCar vs Competition
