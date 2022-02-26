@@ -23,3 +23,16 @@ total_summary <- suspension_coil_df %>% summarize(Mean = mean(PSI), Median = med
 
 # Write an RScript that creates a lot_summary dataframe using the group_by() and the summarize() functions
 lot_summary <- suspension_coil_df %>% group_by(Manufacturing_Lot) %>% summarize(Mean = mean(PSI), Median = median(PSI), Variance = var(PSI), SD = sd(PSI), .groups = 'keep')
+
+### CHALLENGE 15: DELIVERABLE 3
+
+# use t.test()
+t.test(suspension_coil_df$PSI, mu=1500)
+
+# Use t.test() function 3 more times
+
+t.test(subset(suspension_coil_df,Manufacturing_Lot=="Lot1")$PSI, mu = 1500)
+
+t.test(subset(suspension_coil_df,Manufacturing_Lot=="Lot2")$PSI, mu = 1500)
+
+t.test(subset(suspension_coil_df,Manufacturing_Lot=="Lot3")$PSI, mu = 1500)
