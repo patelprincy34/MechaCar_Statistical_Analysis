@@ -33,3 +33,4 @@ Mod. 15
 * Something went wrong during the production cycle of Lot 3. The process must be examined for system failures, and the suspension coils from this lot must be inspected to ensure that those that do not satisfy quality standards are removed.
 
 ## Study Design: MechaCar vs Competition
+####### There are many factors customers take into considerations when buying a new car such as cost, city or highway fuel efficiency, horse power, maintenance cost, or safety rating. But with on going threat of cimate change and high gas prices consumers are also considring swicthing to elactric cars.  
