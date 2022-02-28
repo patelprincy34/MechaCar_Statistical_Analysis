@@ -2,7 +2,8 @@
 Mod. 15
 
 ## Overview
-##### The purpose of this project is analyzing a variety of datasets from the automotive industry using statistics and hypothesis testing.
+The purpose of this project is analyzing a variety of datasets from the automotive industry using statistics and hypothesis testing.
+
 
 ## Linear Regression to Predict MPG 
 
@@ -13,10 +14,10 @@ Mod. 15
 * The above linear model seems to have an r-squared value of 0.7149, which implies it will determine around 71 percent of all mpg predictions. In a summary, this multiple regression approach accurately predicts the mpg of MechaCar prototypes.
 
 ## Summary Statistics on Suspension Coils
-##### Totol Summary Dataframe: 
+#### Total Summary Dataframe: 
 ![Screenshot (31)](https://user-images.githubusercontent.com/93439516/155820669-11baae49-d20a-4344-b350-79b74ecaee56.png)
 
-##### Lot Summary Dataframe: 
+#### Lot Summary Dataframe: 
 ![Screenshot (32)](https://user-images.githubusercontent.com/93439516/155820967-4eb82d53-9001-4f60-90f8-c58738d72a4c.png)
 
 * When we look at Total Summary Dataframe we can see that the variance of the coils is 62.29 PSI, this is well within the required variance of 100 PSI. 
@@ -25,10 +26,10 @@ Mod. 15
 
 ## T-Tests on Suspension Coils
 
-##### T-test results across all manufacturing lots:
+#### T-test results across all manufacturing lots:
 ![t test ](https://user-images.githubusercontent.com/93439516/155822673-8e5c385f-360f-4741-95e5-49aad4d44ddf.png)
 * The sample's true mean is 1498.78, as shown in the summary statistics above. There is insufficient evidence to reject the null hypothesis with a p-Value of 0.06, which is larger than the standard significance level of 0.05. That means, the average of all three manufacturing lots is statistically similar to the estimated population mean of 1500.
-##### T-test results for individual lots:
+#### T-test results for individual lots:
 ![t test lots](https://user-images.githubusercontent.com/93439516/155822726-ea57097d-b4df-4e8e-8760-07afb16c7a94.png)
 * For Lot 1 as seen in the summary data above the true sample mean is 1500 and the p-value of 1 which is not low enough for us to reject the null hypothesis.
 * For Lot 2 as seen in the summary data above the true sample mean is 1500.2 similar to lot 1, and the p-value of 0.61 which is not low enough for us to reject the null hypothesis.
@@ -36,10 +37,10 @@ Mod. 15
 * Something went wrong during the production cycle of Lot 3. The process must be examined for system failures, and the suspension coils from this lot must be inspected to ensure that those that do not satisfy quality standards are removed.
 
 ## Study Design: MechaCar vs Competition
-###### There are many factors customers take into considerations when buying a new car but with high gas prices fuel efficiency is defiantly the an important factor for many customers. MechaCar can perform a statistical study to see how their car performs against the competition for fuel efficiency. 
+There are many factors customers take into considerations when buying a new car but with high gas prices fuel efficiency is defiantly the an important factor for many customers. MechaCar can perform a statistical study to see how their car performs against the competition for fuel efficiency. 
 
 ### Metrics 
-#####  Collect fuel efficiency data from competition car manufacturers from last five years. 
+Collect fuel efficiency data from competition car manufacturers from last five years. 
 * City and highway fuel efficiency:Dependent Variable
 * Horse power: Independent Variable
 * Vehicle weight: Independent Variable
@@ -51,7 +52,7 @@ Mod. 15
 * Alternative Hypothesis (Ha):  On defined metrics, there is statistically significant difference between MechaCar and the competitors.
 
 ### Statistical Tests
-##### A T-test would be used to compare each MechaCar metric against the same metric from the competition data.
+A T-test would be used to compare each MechaCar metric against the same metric from the competition data.
 
 ### Resources
 * Data Source: MechaCar_mpg.csv, Suspension_Coil.csv 
