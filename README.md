@@ -1,6 +1,9 @@
 # MechaCar_Statistical_Analysis
 Mod. 15
 
+## Overview
+##### The purpose of this project is analyzing a variety of datasets from the automotive industry using statistics and hypothesis testing.
+
 ## Linear Regression to Predict MPG 
 
 ![Iinearregression_D1](https://user-images.githubusercontent.com/93439516/155818801-3798bf22-8af5-4c0e-be53-794ebeda8449.png)
@@ -33,4 +36,23 @@ Mod. 15
 * Something went wrong during the production cycle of Lot 3. The process must be examined for system failures, and the suspension coils from this lot must be inspected to ensure that those that do not satisfy quality standards are removed.
 
 ## Study Design: MechaCar vs Competition
-####### There are many factors customers take into considerations when buying a new car such as cost, city or highway fuel efficiency, horse power, maintenance cost, or safety rating. But with on going threat of cimate change and high gas prices consumers are also considring swicthing to elactric cars.  
+###### There are many factors customers take into considerations when buying a new car but with high gas prices fuel efficiency is defiantly the an important factor for many customers. MechaCar can perform a statistical study to see how their car performs against the competition for fuel efficiency. 
+
+### Metrics 
+#####  Collect fuel efficiency data from competition car manufacturers from last five years. 
+* City and highway fuel efficiency:Dependent Variable
+* Horse power: Independent Variable
+* Vehicle weight: Independent Variable
+* AWD capabilities: Independent Variable
+* MPG(Gasoline Efficiency): Independent Variable
+
+### Hypothesis: Null and Alternative
+* Null Hypothesis (Ho): On defined metrics, there is NO statistically significant difference between MechaCar and the competitors.
+* Alternative Hypothesis (Ha):  On defined metrics, there is statistically significant difference between MechaCar and the competitors.
+
+### Statistical Tests
+##### A T-test would be used to compare each MechaCar metric against the same metric from the competition data.
+
+### Resources
+* Data Source: MechaCar_mpg.csv, Suspension_Coil.csv 
+* Software: RStudio
