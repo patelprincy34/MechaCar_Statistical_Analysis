@@ -1,5 +1,4 @@
 # MechaCar_Statistical_Analysis
-Mod. 15
 
 ## Overview
 The purpose of this project is analyzing a variety of datasets from the automotive industry using statistics and hypothesis testing.
